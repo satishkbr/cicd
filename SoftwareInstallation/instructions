@@ -15,6 +15,7 @@ openjdk-11 is the recommended version.
 
 
 
+
 ---uninstall any java----
 sudo yum list java
 sudo yum remove java
