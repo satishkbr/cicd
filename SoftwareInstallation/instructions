@@ -6,14 +6,14 @@ sudo yum install -y apache-maven
 mvn --version	
 
 
-install jenkins:
+-----install jenkins,java----
+This is the correct way to install jenkins by the official jenkins site for EC2 amazon linux
+https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+you can also refer the scrrenshots by another blog:
+https://blog.devgenius.io/installing-jenkins-on-an-ec2-instance-and-building-your-first-project-a-beginners-guide-7921108a69bc
+openjdk-11 is the recommended version.
 
-https://www.jenkins.io/doc/book/installing/linux/
 
-sudo wget -O /etc/yum.repos.d/jenkins.repo \
-    https://pkg.jenkins.io/redhat/jenkins.repo
-sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
-sudo yum install jenkins
 
 ---uninstall any java----
 sudo yum list java
