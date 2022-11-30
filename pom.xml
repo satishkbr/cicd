@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tsk</groupId>
-	<artifactId>customer-svcs1</artifactId>
+	<artifactId>cicd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>customer-svcs1</name>
+	<name>cicd</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>war</packaging>
 	<properties>
